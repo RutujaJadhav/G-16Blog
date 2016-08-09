@@ -2,7 +2,8 @@
 <!--DOCTYPE html -->
 <html>
 <head>
-<title>{% block head_title %}G16 | Blog{% endblock head_title %}</title>
+
+<title>{% block head_title %}G16 | Blog{% endblock head_title %}</title><link rel="shortcut icon" href="" type="image/x-icon">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -19,7 +20,15 @@
 
 {% block head_extra %} {% endblock head_extra %}
 </head>
-<body>
+
+<body style="background: -webkit-linear-gradient(#6200EA,#651FFF,#7C4DFF,#B388FF,#ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B388FF
+,#7C4DFF,#651FFF,#6200EA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B388FF
+,#7C4DFF,#651FFF,#6200EA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(
+#009688
+,#26A69A,#4DB6AC,#80CBC4,#B2DFDB); /* Standard syntax (must be last) */">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
 var js, fjs = d.getElementsByTagName(s)[0];
