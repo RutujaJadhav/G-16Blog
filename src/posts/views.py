@@ -34,7 +34,7 @@ def post_create(request):
 		instance.user = request.user
 		instance.save()
 		# message success
-		messages.success(request, "Sent for approval!")
+		messages.success(request, "Successfully Created")
 		return HttpResponseRedirect(instance.get_absolute_url())
 	context = {
 		"form": form,
