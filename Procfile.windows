@@ -1,1 +1,5 @@
 web: python manage.py runserver 127.0.0.1:8000
+<<<<<<< HEAD
+=======
+heroku local -f Procfile.windows
+>>>>>>> 45850a2e71c2f6e7835c2dfd152804b1edf6eeb2
